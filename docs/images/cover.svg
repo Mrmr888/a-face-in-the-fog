@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="600" viewBox="0 0 1440 600" role="img" aria-labelledby="cover-title cover-desc">
+<title id="cover-title">雾中来客 · A Face in the Fog</title>
+<desc id="cover-desc">民国十五年临江，澄江饭店的五位来宾之中，有一位曾在战场救过你。在五段真实记忆以内，找到那个人。</desc>
+<defs>
+  <linearGradient id="cover-fog"><stop stop-color="#efeadd"/><stop offset=".4" stop-color="#efeadd" stop-opacity=".9"/><stop offset="1" stop-color="#efeadd" stop-opacity="0"/></linearGradient>
+  <pattern id="cover-grain" width="31" height="29" patternUnits="userSpaceOnUse"><path d="M3 8h2m13 12h1m9-14h2M9 26h1" stroke="#68745c" stroke-width=".7" opacity=".18"/></pattern>
+  <clipPath id="cover-art"><rect x="675" y="30" width="735" height="540"/></clipPath>
+</defs>
+<path fill="#efeadd" d="M0 0h1440v600H0z"/>
+<g clip-path="url(#cover-art)"><svg x="626" y="-5" width="878" height="575" viewBox="0 0 1100 720" fill="none">
+  <defs>
+    <linearGradient id="sky" x1="180" y1="10" x2="910" y2="650" gradientUnits="userSpaceOnUse"><stop stop-color="#eee7d8"/><stop offset=".63" stop-color="#dedaca"/><stop offset="1" stop-color="#b7b8a7"/></linearGradient>
+    <linearGradient id="water" x1="240" y1="488" x2="240" y2="720" gradientUnits="userSpaceOnUse"><stop stop-color="#a7ab98"/><stop offset="1" stop-color="#d9d5c4"/></linearGradient>
+    <linearGradient id="wall" x1="625" y1="205" x2="968" y2="580" gradientUnits="userSpaceOnUse"><stop stop-color="#d8d2be"/><stop offset="1" stop-color="#b3b29f"/></linearGradient>
+    <pattern id="paper" width="29" height="31" patternUnits="userSpaceOnUse"><path d="m3 4 2 .4m16 7 1 .5M7 21l1.3-.4m15 7 2-.4" stroke="#6f7561" stroke-width=".6" opacity=".25"/></pattern>
+    <pattern id="hatching" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(28)"><path d="M0 0v7" stroke="#555d4d" stroke-width=".7" opacity=".38"/></pattern>
+    <pattern id="brick" width="42" height="19" patternUnits="userSpaceOnUse"><path d="M0 .5h42M0 19V0m21 0v9.5M0 9.5h42m-6 0V19" stroke="#5f6857" stroke-width=".55" opacity=".32"/></pattern>
+    <pattern id="rain" width="86" height="124" patternUnits="userSpaceOnUse" patternTransform="rotate(18)"><path d="M15 0v24m39 29v41M8 94v15m65-12v27" stroke="#f6f1e5" stroke-width=".8" opacity=".38"/></pattern>
+    <g id="window"><path d="M0 0h30v54H0z" fill="#737a65" stroke="#3e493a" stroke-width="1.7"/><path d="M3 4h24v45H3z" fill="#a9ad96"/><path d="M15 3v47M2 27h26" stroke="#46503e" stroke-width="2"/><path d="M5 7h7v17H5zm13 0h6v17h-6z" fill="#dad3ad" opacity=".7"/><path d="M-3 55h36v4H-3z" fill="#79806a"/><path d="M2 51h27M4 8v15m16 10v12" stroke="#e1dac4" stroke-width=".8"/></g>
+    <g id="window-lit"><path d="M0 0h30v54H0z" fill="#596451" stroke="#3e493a" stroke-width="1.7"/><path d="M4 4h22v45H4z" fill="#c6a668"/><path d="M6 6h18v42H6z" fill="#cfb782"/><path d="M15 3v48M3 28h24" stroke="#515a46" stroke-width="2.5"/><path d="M6 7v17m13 10v12" stroke="#e2cf9d" stroke-width=".8"/><path d="M-3 55h36v4H-3z" fill="#79806a"/></g>
+    <g id="narrow-window"><path d="M0 0h19v43H0z" fill="#5a6652" stroke="#364431" stroke-width="1.4"/><path d="M3 4h13v34H3z" fill="#9da68b"/><path d="M9.5 3v36M3 20h14" stroke="#4b5843" stroke-width="1.3"/><path d="M-2 45h24" stroke="#6c775c" stroke-width="3"/></g>
+    <g id="arch"><path d="M0 74V25C0 11 10 0 22 0s22 11 22 25v49" fill="#57614e" stroke="#3e4939" stroke-width="2"/><path d="M5 69V25C5 14 13 6 22 6s17 8 17 19v44z" fill="#b4a474"/><path d="M22 6v63M5 30h34M7 22h30" stroke="#4b5844" stroke-width="2.2"/><path d="m8 16 14 14 14-14M11 12l11 18 10-18" stroke="#646b52" stroke-width="1"/><path d="M-4 75h52M-4 80h52" stroke="#9fa48e" stroke-width="3"/></g>
+    <g id="lamp"><path d="M0 0v126M-8 126H8m-6-126v-7m-6 7h12M-4 2h8l4 17H-8z" stroke="#394738" stroke-width="3"/><path d="M-8 18H8l-2 25H-6z" fill="#d3bf80" stroke="#394738" stroke-width="2.5"/><path d="M0 18v25m-7 2H7M-5 48H5" stroke="#394738" stroke-width="2"/><path d="m-6 119 2-14h8l2 14" fill="#394738"/></g>
+    <g id="distant-window"><path d="M0 0h5v12H0zm13 0h5v12h-5zm13 0h5v12h-5z" fill="#6a7560" opacity=".5"/></g>
+    <g id="balcony"><path d="M0 0h33v11H0zM1 5h31m-27-4v9m6-9v9m6-9v9m6-9v9m6-9v9" stroke="#616c55" stroke-width="1"/><path d="M-3 12h39" stroke="#4a5741" stroke-width="2"/></g>
+  </defs>
+  <path fill="url(#sky)" d="M0 0h1100v720H0z"/>
+  <path d="M0 83c92 14 159-27 268-6s178 2 253-17 151 6 235-4 161-36 344-20M0 114c124-12 184 30 322 5s212-2 330-11M73 160c125 9 192-32 320-11m-393 72c174-34 250-14 354-33 98-18 237-18 329-45m-548 105c107-11 211-4 302-19" stroke="#a4ad97" stroke-width="1" opacity=".42"/>
+  <path d="M0 80c112 30 161 1 263 9s183 9 263-4 149-3 214-6M0 94c112 22 159 7 243 9m72-1c81 7 159-3 218-11M0 135c143-2 241 17 358-4m-218 61c71-20 146-10 215-24m74-14c83 1 184-25 266-32" stroke="#f8f1e2" stroke-width="5" opacity=".36"/>
+  <path d="M0 330c137-36 237-23 343-62 111-39 164-20 259-58m-596 141c98-29 210-18 304-52 63-22 118-29 170-28M17 385c151-52 306-26 439-83" stroke="#a0aa94" stroke-width=".7" opacity=".5"/>
+  <g opacity=".37" fill="#87947d">
+    <path d="M0 443V328h29v-23h12v23h28v118M75 443V354h30v-25h25v-14h20v18h20v113M174 445V303h35v-8h37v15h24v139M276 449V365h18v-37h47v33h18v88M363 450V339h25v-12h48v121M444 450V373h33v-49h33v-15h13v140M530 453V360h65v92"/>
+    <path d="M20 328v-58m-3 9h6m193 19v-44m-7 11h14m110 63v-56" stroke="#687c63" stroke-width="2"/>
+  </g>
+  <g opacity=".38"><use href="#distant-window" x="8" y="350"/><use href="#distant-window" x="8" y="371"/><use href="#distant-window" x="84" y="367"/><use href="#distant-window" x="119" y="345"/><use href="#distant-window" x="184" y="323"/><use href="#distant-window" x="226" y="323"/><use href="#distant-window" x="184" y="349"/><use href="#distant-window" x="226" y="349"/><use href="#distant-window" x="184" y="375"/><use href="#distant-window" x="226" y="375"/><use href="#distant-window" x="298" y="346"/><use href="#distant-window" x="298" y="372"/><use href="#distant-window" x="382" y="350"/><use href="#distant-window" x="382" y="374"/><use href="#distant-window" x="484" y="340"/><use href="#distant-window" x="548" y="375"/></g>
+  <path d="M0 450c138-13 215-8 312-2s178 7 269 0l58 39-639 5z" fill="#8c9981" opacity=".62"/>
+  <path d="M0 476c206-9 353-15 557 7l52 97L0 720z" fill="url(#water)"/>
+  <path d="m0 511 337-15M18 533l342-19m-280 34 259-10M0 585l383-38M31 607l395-43M0 647l440-58M0 698l395-61M294 487l132 3M0 486l117-2" stroke="#6f7c63" stroke-width="1.3" opacity=".52"/>
+  <path d="m16 521 177-8m-93 47 136-12m-196 48 203-19m-106 48 149-24M17 658l235-34m-157 67 234-36M320 526l62-5m-24 35 73-9" stroke="#ede7d2" stroke-width="2" opacity=".65"/>
+  <path d="m377 474 61-27 139 3 50 20-171 15z" fill="#55684e"/>
+  <path d="m411 458 10-13h63l15 13m-49-12v-32m-3 11h35l19 21" stroke="#55684e" stroke-width="2"/>
+  <path d="M444 452h50M447 456h38" stroke="#c5c9b1" stroke-width="1.5"/>
+  <path d="m326 514 120-26 90 5-142 34z" fill="#8b917b" opacity=".3"/>
+  <!-- The hotel is drawn in several planes, like a plate from an old city atlas. -->
+  <path d="m494 352 94-43 344 36v219l-438 33z" fill="#929d83" stroke="#495944" stroke-width="2"/>
+  <path d="m503 351 80-34v261l-80 8z" fill="url(#hatching)"/>
+  <path d="m488 348 102-47 30 9-129 51z" fill="#777f67" stroke="#495944" stroke-width="1.5"/>
+  <path d="m510 379 19-7v35l-19 6zm33-13 18-7v37l-18 6zm-33 72 19-6v36l-19 5zm33-10 18-6v37l-18 5zm-33 69 19-4v37l-19 4zm33-9 18-3v38l-18 3z" fill="#5c6a52" stroke="#46533d" stroke-width="1.5"/>
+  <path d="m514 381 10-4v27l-10 4m33-39 9-4v28l-9 3m-33 47 10-3v27l-10 3m33-36 9-3v29l-9 2" stroke="#b9b797" stroke-width="2"/>
+  <path d="m489 422 98-32m-95 95 94-24m-91 87 91-16M500 569l85-18" stroke="#4c5d44" stroke-width="2"/>
+  <path d="m580 233 367 5 90 55v289l-453 34z" fill="url(#wall)" stroke="#414f3b" stroke-width="2.5"/>
+  <path d="m947 238 90 55v289l-91 10z" fill="#8b977d"/>
+  <path d="m947 238 90 55v289l-91 10z" fill="url(#hatching)"/>
+  <path d="m579 265 367 2 92 52M580 337l365-4 92 35M580 410l365-11 92 25M581 481l364-18 92 16M581 549l364-23 92 7" stroke="#67725a" stroke-width="2"/>
+  <path d="m581 271 364 3 91 49M581 343l364-4 91 34M581 416l364-11 91 25M582 487l363-18 91 16" stroke="#ece4cd" stroke-width="2" opacity=".65"/>
+  <path d="M585 277h355v277H585z" fill="url(#brick)"/>
+  <path d="m571 230 12-13 361 5 106 65-10 17-98-56-371-4z" fill="#b4b79f" stroke="#49593f" stroke-width="2"/>
+  <path d="m570 244 374 6 98 56m-459-83 358 4 104 63" stroke="#4d5d41" stroke-width="2"/>
+  <path d="m582 210 360 5 89 55m-447-59v-15l352 3 90 57v15" stroke="#6e7b5f" stroke-width="3"/>
+  <path d="M604 198v20m20-20v20m20-19v19m20-19v20m20-19v19m20-19v20m20-20v20m20-20v20m20-19v20m20-20v20m20-20v20m20-19v20m20-20v20m20-20v20m20-19v20m20-20v20m20-20v20" stroke="#879174" stroke-width="3"/>
+  <path d="m718 215 3-73 189 2 18 77z" fill="#c5c6ad" stroke="#4c5b43" stroke-width="2"/>
+  <path d="m913 147 39 27 10 62-38-13z" fill="#89967a" stroke="#4c5b43" stroke-width="2"/>
+  <path d="m712 144 16-11h175l19 15-10 9-200-1z" fill="#aeb69a" stroke="#4c5b43" stroke-width="2"/>
+  <path d="M752 136V96h124v42" fill="#c3c7ac" stroke="#4c5b43" stroke-width="2"/>
+  <path d="M745 94h139l-12-12H758z" fill="#a4af91" stroke="#4c5b43" stroke-width="2"/>
+  <path d="M767 82V65c0-14 19-25 46-25s47 11 47 25v17" fill="#7d8b6f" stroke="#4b5c41" stroke-width="2"/>
+  <path d="M772 67h83m-82 6h81m-41-33v41m-22-36-5 35m46-35 5 35M779 52l-4 28m74-27 5 28" stroke="#bfc5a9" stroke-width="1"/>
+  <path d="M813 41V8m-6 16h14M807 38h13" stroke="#4b5c41" stroke-width="2"/>
+  <path d="m814 13 31 5-31 9" fill="#803a32" opacity=".75"/>
+  <path d="M763 102h18v27h-18zm29 0h17v27h-17zm28 0h17v27h-17zm28 0h17v27h-17z" fill="#607154" stroke="#4b5c41" stroke-width="1.5"/>
+  <path d="M768 105h8v20h-8zm29 0h7v20h-7zm28 0h7v20h-7zm28 0h7v20h-7z" fill="#b7b79b"/>
+  <path d="M732 162h15v37h-15zm28 0h15v38h-15zm28 0h15v39h-15zm28 0h15v40h-15zm28 0h15v41h-15zm28 0h15v42h-15z" fill="#596b4e" stroke="#46583b" stroke-width="1.3"/>
+  <path d="M735 165h8v31h-8m20-30h7v31h-7m22-31h7v32h-7m22-32h7v32h-7m22-32h7v33h-7m22-33h7v34h-7" stroke="#a9b18f" stroke-width="1"/>
+  <path d="M720 211h202m-198-52h182M756 132h117" stroke="#7c886a" stroke-width="1.5"/>
+  <use href="#window" x="603" y="279"/><use href="#window" x="655" y="279"/><use href="#window-lit" x="707" y="279"/><use href="#window" x="759" y="279"/><use href="#window" x="811" y="279"/><use href="#window-lit" x="863" y="279"/><use href="#window" x="909" y="279"/>
+  <use href="#window" x="603" y="350"/><use href="#window-lit" x="655" y="349"/><use href="#window" x="707" y="348"/><use href="#window" x="759" y="347"/><use href="#window-lit" x="811" y="346"/><use href="#window" x="863" y="345"/><use href="#window" x="909" y="344"/>
+  <use href="#window-lit" x="603" y="422"/><use href="#window" x="655" y="420"/><use href="#window" x="707" y="419"/><use href="#window-lit" x="759" y="417"/><use href="#window" x="811" y="416"/><use href="#window" x="863" y="414"/><use href="#window-lit" x="909" y="413"/>
+  <use href="#balcony" x="601" y="327"/><use href="#balcony" x="653" y="327"/><use href="#balcony" x="705" y="327"/><use href="#balcony" x="757" y="327"/><use href="#balcony" x="809" y="327"/><use href="#balcony" x="861" y="327"/><use href="#balcony" x="907" y="327"/>
+  <g transform="matrix(1 .45 0 1 963 294)"><use href="#narrow-window"/><use href="#narrow-window" x="36"/></g>
+  <g transform="matrix(1 .31 0 1 963 365)"><use href="#narrow-window"/><use href="#narrow-window" x="36"/></g>
+  <g transform="matrix(1 .19 0 1 963 432)"><use href="#narrow-window"/><use href="#narrow-window" x="36"/></g>
+  <g transform="matrix(1 .1 0 1 963 495)"><use href="#narrow-window"/><use href="#narrow-window" x="36"/></g>
+  <path d="M589 273v280m53-280v276m52-276v272m52-272v268m52-268v265m52-265v261m51-261v257m43-257v254" stroke="#a3aa90" stroke-width="4"/>
+  <path d="M592 275v275m53-275v272m52-272v269m52-269v266m52-266v263m52-263v259m51-259v255" stroke="#e5dec5" stroke-width="1"/>
+  <path d="m577 549 369-24 95 8v21l-96-7-368 26z" fill="#69775b" stroke="#44543a" stroke-width="2"/>
+  <path d="m588 481 355-17v63l-355 26z" fill="#c2c2a8"/>
+  <use href="#arch" x="600" y="489" transform="translate(0 0) scale(1 .95)"/><use href="#arch" x="658" y="488" transform="translate(0 0) scale(1 .95)"/><use href="#arch" x="833" y="478" transform="translate(0 0) scale(1 .95)"/><use href="#arch" x="888" y="475" transform="translate(0 0) scale(1 .95)"/>
+  <path d="M723 551v-67a37 37 0 0 1 74 0v62" fill="#414f39" stroke="#394c30" stroke-width="3"/>
+  <path d="M731 546v-62a29 29 0 0 1 58 0v59z" fill="#b29c65"/>
+  <path d="M759 455v90m-28-53h58m-55-22 25 22 25-22m-46-8 21 30 19-31" stroke="#4c5d40" stroke-width="3"/>
+  <path d="m717 548 86-6v8l-86 6z" fill="#b9bca1" stroke="#566348" stroke-width="1"/>
+  <path d="m714 556 93-6v7l-93 8zm-4 9 103-7v7l-103 9z" fill="#b9bca1" stroke="#566348" stroke-width="1"/>
+  <path d="m703 508 112-6 26 20-158 11z" fill="#803a32" stroke="#483f30" stroke-width="2"/>
+  <path d="m683 533 158-11v10l-158 10z" fill="#572f29"/>
+  <path d="m691 532 143-9m-119-11-12 16m30-18-7 17m29-17-2 15m21-15 2 14m18-14 6 12m11-12 9 11" stroke="#a6654d" stroke-width="1"/>
+  <path d="M689 542v29m143-37v28" stroke="#414e35" stroke-width="3"/>
+  <path d="m581 580 364-24 91 6m-454 30 362-25 91 8" stroke="#3e5137" stroke-width="2"/>
+  <path d="m581 599 366-24 153 40v105H401z" fill="#b4b59e"/>
+  <path d="m399 720 186-107 367-28 148 42" stroke="#69775c" stroke-width="2"/>
+  <path d="m605 625 355-25 140 37m-446 0 306-22 140 36m-383-4 243-16 140 35m-318-5 178-13 139 36M578 608l-81 112m136-116-41 116m107-121 3 121m59-125 31 125m35-130 76 130m-17-131 110 131" stroke="#778269" stroke-width=".8" opacity=".62"/>
+  <path d="m790 575 35 98 33 5-49-102m88-7 46 50 37 2-66-51" fill="#e2c78c" opacity=".17"/>
+  <!-- River promenade and wrought-iron lamps. -->
+  <path d="m0 720 505-206 27 11L97 720z" fill="#697b5e"/>
+  <path d="m0 681 497-185 21 17L0 707z" fill="#aab29a" stroke="#526548" stroke-width="2"/>
+  <path d="m0 667 493-179 10 9L0 683z" fill="#d0d1b8" stroke="#5c6c50" stroke-width="1.5"/>
+  <path d="M28 655v30m41-45v29m43-44v28m44-44v28m44-44v27m40-40v25m40-40v25m38-39v25m36-38v24m35-37v24m30-35v24m27-34v25m24-34v27" stroke="#485f40" stroke-width="5"/>
+  <path d="M24 655v29m40-29v12m43-26v11m44-26v11m44-27v13m40-25v12m40-25v12m38-25v12m36-26v12m35-25v13m30-25v11m27-23v10" stroke="#e2dfc3" stroke-width="1"/>
+  <use href="#lamp" transform="translate(85 494) scale(1.15)"/><use href="#lamp" transform="translate(294 465) scale(.75)"/><use href="#lamp" transform="translate(433 452) scale(.47)"/><use href="#lamp" transform="translate(988 488) scale(.71)"/>
+  <path d="m86 563-17 76m18-67 18 59m189-123-5 38m7-35 10 31" stroke="#d9bd76" stroke-width="7" opacity=".13"/>
+  <path d="m0 700 68-24 90-22m-60 28 69-27m-40 41 106-42m-58 49 52-20m84-53 80-28m-40 34 44-15" stroke="#e9e0c5" stroke-width="2" opacity=".65"/>
+  <!-- Guests sheltering beneath umbrellas give the architecture a human scale. -->
+  <g fill="#394c35"><path d="M568 563c0-8 6-14 12-14s12 6 12 14h-24m12-13v42m-6-14-6 27m14-27 5 26m-11-31-6 15m12-15 9 12" stroke="#394c35" stroke-width="2"/><path d="m563 589 27-2-4-18-14 1z"/>
+  <path d="M873 559c0-8 7-14 15-14s15 6 15 14h-30m15-15v38m-5-8-5 23m14-24 6 22" stroke="#394c35" stroke-width="2"/><path d="m877 582 21-1-6-16-11 1z"/>
+  <path d="M925 565a4 4 0 1 1 8 0 4 4 0 0 1-8 0m-2 5h13l4 16h-21z"/><path d="m925 584-2 17m9-17 5 16" stroke="#394c35" stroke-width="2"/></g>
+  <g fill="#394c35" opacity=".91"><path d="M1084 546c-21-1-30-17-25-31-14-14-6-35 9-39-8-24 10-40 32-43v122zm-38 90c-19-10-31-8-33-25-20 0-24-16-15-28-4-17 9-27 22-24 8-17 25-17 35-7 19-2 27 12 23 24 15 10 11 26-2 35 0 17-11 24-30 25z"/><path d="m1041 720 11-113 36-86m-35 96-34-34m46-6 32-19m-44 86-25-22" stroke="#394c35" stroke-width="7"/></g>
+  <g stroke="#818d72" stroke-width="1" opacity=".56"><path d="m1042 608 9 10 12-18m-40-6 15 9m-21-22 15 5m3-16 7 15m26-16-5 13m-5 29 11-9m-15-74 13 10m-8-29 13 13m-4-26 12 8m-3-24 10 10m-34 83 18-11"/></g>
+  <path d="M0 0h1100v720H0z" fill="url(#rain)"/>
+  <path d="M0 0h1100v720H0z" fill="url(#paper)"/>
+</svg></g>
+<path fill="url(#cover-fog)" d="M600 30h380v540H600z"/>
+<path fill="url(#cover-grain)" d="M0 0h1440v600H0z"/>
+<rect x="28.5" y="28.5" width="1383" height="543" fill="none" stroke="#a6ac96"/>
+<path d="M28 58V28h30m1324 0h30v30M28 542v30h30m1324 0h30v-30" fill="none" stroke="#843f35" stroke-width="2"/>
+<g font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" fill="#68745c">
+ <text x="75" y="76" font-size="13" letter-spacing="3">临江旧事 / 卷宗 〇〇六</text>
+ <text x="1366" y="76" font-size="12" letter-spacing="3" text-anchor="end">AN INTERACTIVE MYSTERY</text>
+ <path d="M75 100h494" stroke="#b9bbaa"/>
+</g>
+<text x="76" y="158" fill="#68745c" font-size="17" letter-spacing="7" font-family="'Songti SC','SimSun',serif">民国十五年 · 临江</text>
+<text x="69" y="286" font-family="'Songti SC','Noto Serif CJK SC','SimSun',serif" font-size="109" letter-spacing="9" fill="#30372f">雾中<tspan fill="#843f35">来客</tspan></text>
+<text x="78" y="330" font-family="Georgia,serif" font-size="21" fill="#68745c" letter-spacing="7">A FACE IN THE FOG</text>
+<path d="M78 369h43" stroke="#843f35" stroke-width="3"/>
+<g font-family="'Songti SC','SimSun',serif" font-size="22" fill="#59634f" letter-spacing="2">
+ <text x="78" y="410">你忘了那张脸，却从未忘记那只伸来的手。</text>
+ <text x="78" y="449">五段记忆之内，找到救过你的人。</text>
+</g>
+<path d="M78 485h507" stroke="#c3c5b5"/>
+<g fill="#30372f" font-family="Georgia,serif" font-size="31"><text x="77" y="535">05</text><text x="259" y="535">05</text><text x="438" y="535">01</text></g>
+<g fill="#68745c" font-family="'Microsoft YaHei',sans-serif" font-size="11" letter-spacing="1.5"><text x="126" y="528">神秘来宾</text><text x="308" y="528">真实记忆</text><text x="487" y="528">救命之恩</text></g>
+<path d="M221 512v24m180-24v24" stroke="#c1c5b1"/>
+<g transform="translate(1277 421) rotate(8)"><rect width="83" height="107" fill="#eae3d2" fill-opacity=".88" stroke="#843f35"/><rect x="5" y="5" width="73" height="97" fill="none" stroke="#843f35" stroke-opacity=".7"/><text x="41" y="43" text-anchor="middle" fill="#843f35" font-family="'SimSun',serif" font-size="29">请</text><text x="41" y="79" text-anchor="middle" fill="#843f35" font-family="'SimSun',serif" font-size="29">柬</text><text x="41" y="96" text-anchor="middle" fill="#843f35" font-family="serif" font-size="7" letter-spacing="2">今夜 七时</text></g>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="480" viewBox="0 0 1440 480" role="img" aria-labelledby="flow-title flow-desc">
+<title id="flow-title">调查、回忆与相认</title><desc id="flow-desc">交谈不消耗记忆，前五段回忆真实可靠。可随时相认，认对成功，认错失败。第五段之后仍可继续调查，第六段回忆立即触发虚构记忆失败。</desc>
+<defs><marker id="arrow" markerWidth="7" markerHeight="7" refX="5" refY="3" orient="auto"><path d="m0 0 5 3-5 3" fill="none" stroke="#a3ad8d" stroke-width="1.2"/></marker></defs>
+<path fill="#303c32" d="M0 0h1440v480H0z"/>
+<rect x="22.5" y="22.5" width="1395" height="435" fill="none" stroke="#5f6b58"/>
+<g font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif"><text x="58" y="66" fill="#c2c9b1" font-size="13" letter-spacing="3">THE RULES OF REMEMBERING</text><text x="1382" y="66" text-anchor="end" fill="#a9b397" font-size="14" letter-spacing="2">调查与回想交替进行 · 可随时选择相认</text></g>
+<g fill="#3b483c" stroke="#6a785f"><rect x="58" y="108" width="392" height="200"/><rect x="524" y="108" width="392" height="200"/><rect x="990" y="108" width="392" height="200"/></g>
+<path d="M465 208h42m424 0h42" fill="none" stroke="#a3ad8d" stroke-width="1.4" marker-end="url(#arrow)"/>
+<g font-family="Georgia,serif" font-size="22" fill="#aeb997"><text x="86" y="151">01</text><text x="552" y="151">02</text><text x="1018" y="151">03</text></g>
+<g font-family="'Songti SC','Noto Serif CJK SC','SimSun',serif" font-size="36" fill="#eeeadd" letter-spacing="3"><text x="86" y="208">与故人交谈</text><text x="552" y="208">拾起记忆碎片</text><text x="1018" y="208">在遗忘前相认</text></g>
+<g font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="17" fill="#c1c9b3"><text x="86" y="255">自由提问，核对人物细节。</text><text x="86" y="282">交谈不限次数，不消耗记忆。</text><text x="552" y="255">Agent 安排线索的出场顺序。</text><text x="552" y="282">每次回想，获得一段真实往事。</text><text x="1018" y="255">五段以内，认对即获胜。</text><text x="1018" y="282">认错即失败，只有一次机会。</text></g>
+<path d="M58 349h1324" stroke="#5f6b58"/>
+<text x="58" y="413" fill="#d5dcc4" font-family="Georgia,serif" font-size="44">05</text><text x="129" y="393" fill="#e9e6d6" font-family="'Songti SC','SimSun',serif" font-size="24">第五段之后</text><text x="129" y="421" fill="#aeb99c" font-family="'Microsoft YaHei',sans-serif" font-size="16">仍可继续交谈、整理证据与相认。</text>
+<path d="M707 375v49" stroke="#5f6b58"/>
+<text x="759" y="413" fill="#d1a188" font-family="Georgia,serif" font-size="44">06</text><text x="830" y="393" fill="#e4b9a1" font-family="'Songti SC','SimSun',serif" font-size="24">第六段记忆</text><text x="830" y="421" fill="#cfb29b" font-family="'Microsoft YaHei',sans-serif" font-size="16">那段往事从未发生。你已陷入虚构，立即失败。</text>
+</svg>
