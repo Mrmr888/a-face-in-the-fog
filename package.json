@@ -1,0 +1,14 @@
+{
+  "name": "a-face-in-the-fog",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "雾中来客：由 DeepSeek 主持的民国记忆推理游戏",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "node --watch server.mjs",
+    "test": "node --test",
+    "check": "node --check server.mjs && node --check src/game.mjs && node --check src/deepseek.mjs && node --check public/app.js"
+  }
+}

@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#efeadd">
+  <meta name="description" content="一场民国酒会，五位陌生来宾，五段残存记忆。与 DeepSeek 一起寻找战场上救过你的人。">
+  <title>雾中来客 · A Face in the Fog</title>
+  <link rel="icon" type="image/svg+xml" href="/art/mark.svg">
+  <link rel="stylesheet" href="/styles.css">
+  <script type="module" src="/app.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <a href="/" class="brand" aria-label="雾中来客首页"><span class="brand-mark">雾</span><span>雾中来客<small>A FACE IN THE FOG</small></span></a>
+    <nav class="top-nav" aria-label="主导航"><a href="#story">故事序章</a><a href="#guests">来宾档案</a><button data-action="rules">游戏规则 <span>↗</span></button></nav>
+    <span class="header-edition">一九二六 · 记忆悬疑剧场<span class="edition-dot"></span></span>
+  </header>
+
+  <main id="landing">
+    <section class="hero page-width" id="story">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="small-rule"></span> DEEPSEEK 驱动的互动叙事</div>
+        <p class="dateline">民国十五年 <span>／</span> 临江</p>
+        <h1>雾中<span>来客</span><i>。</i></h1>
+        <p class="hero-english">A FACE IN THE FOG</p>
+        <div class="hero-description"><p>那年战火里，有人救了你一命。<br>你忘了那张脸，却从未忘记那只伸来的手。</p><p>今夜，五位来宾，一场酒会。<br>你要在记忆散尽之前，找到那个人。</p></div>
+        <button class="button primary hero-cta" data-action="start">赴这一场旧约 <span>↗</span></button>
+        <p class="start-caption"><span class="key-icon">⌘</span> 输入你的 API Key，即可入席 <span>·</span> 约 15–25 分钟</p>
+        <div class="hero-metrics"><div><strong>05</strong><span>神秘来宾</span></div><i></i><div><strong>05</strong><span>真实记忆</span></div><i></i><div><strong>01</strong><span>救命之恩</span></div></div>
+      </div>
+      <div class="hero-art">
+        <div class="art-topline"><span>临江旧事 · 卷宗 〇〇六</span><span>PRIVATE ARCHIVE</span></div>
+        <div class="scene-image"><img src="/art/hotel.svg" alt="薄雾与雨夜中的民国澄江饭店，窗内透出温暖的灯光" fetchpriority="high"><span class="art-vertical">所有重逢，都是记忆的回声。</span><div class="invitation-stamp"><span>请 柬</span><small>今夜 · 七时</small></div></div>
+        <div class="art-caption"><span><i></i> 澄江饭店 · 今夜，故人赴约</span><span>1926 / 11 / 07</span></div>
+      </div>
+    </section>
+
+    <section class="guest-section page-width" id="guests">
+      <div class="section-heading"><div><span class="section-number">01 / 来宾名录</span><h2>一面之缘，五个陌生人。</h2></div><p>他们各怀往事。<br>其中一个，曾将你从战火中带回人间。</p></div>
+      <div class="guest-preview-grid" id="guest-previews" aria-label="五位来宾"></div>
+      <div class="section-footnote"><span>不必相信第一印象，留意他们不经意间露出的细节。</span><span>FIVE STRANGERS. ONE FAMILIAR SOUL.</span></div>
+    </section>
+
+    <section class="rules-section page-width">
+      <div class="rules-title"><span class="section-number">02 / 记忆法则</span><h2>记忆会褪色。<br>真相，只有一个。</h2><p>第六段记忆，或许从未发生。</p><button class="text-button" data-action="rules">阅读游戏规则 <span>↗</span></button></div>
+      <div class="rule-item"><span class="rule-symbol">壹</span><h3>与故人交谈</h3><p>自由询问五位来宾，观察言辞与细节。交谈不会消耗记忆。</p></div>
+      <div class="rule-item"><span class="rule-symbol">贰</span><h3>拾起记忆碎片</h3><p>让 Agent 引你重返战场，每次回想都会揭开一条真实的线索。</p></div>
+      <div class="rule-item"><span class="rule-symbol">叁</span><h3>在遗忘之前相认</h3><p>在五段记忆内找到恩人。第六次回想，将带你走入虚构的往事。</p></div>
+    </section>
+    <footer class="page-width site-footer"><span>雾中来客 <i>·</i> 一款关于记忆与重逢的游戏</span><span>故事纯属虚构 <i>／</i> 由你与 AI 共同书写</span></footer>
+  </main>
+
+  <main id="play" hidden>
+    <div class="game-topbar page-width"><div><span class="live-dot"></span><span id="game-location">澄江饭店 · 酒会进行中</span><small id="case-id"></small></div><div><span id="model-label"></span><button class="text-button" data-action="restart">离席 <span>↗</span></button></div></div>
+    <div class="game-layout page-width">
+      <aside class="people-panel"><div class="panel-heading"><span class="section-number">今夜来宾</span><span>伍 人</span></div><div id="people-list"></div><div class="people-tip"><span>侦查札记</span><p>记忆里的气味、习惯与物件，都可能藏在一句闲谈中。</p><p>交谈不限次数，也不消耗记忆。</p></div></aside>
+      <section class="conversation-panel" aria-label="人物交谈"><div class="scene-intro"><span class="section-number">第一幕 / 灯影之下</span><p id="scene-intro"></p></div><div id="active-profile"></div><div class="conversation-heading"><span>席间交谈</span><span id="conversation-count">尚未交谈</span></div><div id="conversation" class="conversation" role="log" aria-live="polite" aria-label="对话记录"></div><div class="composer-wrap"><div class="suggestions" id="suggestions"></div><form id="talk-form"><label class="sr-only" for="message-input">想问这位来宾的话</label><textarea id="message-input" placeholder="试着问问那年秋天，或某个熟悉的细节……" rows="2" maxlength="800" required></textarea><div class="composer-bottom"><span>Enter 发送 · Shift + Enter 换行</span><button class="send-button" type="submit" aria-label="发送问题">递上一句话 <span>↑</span></button></div></form></div><div class="recognize-row"><p>有些人，只需一眼。<br><span>相认只有一次机会，请谨慎判断。</span></p><button class="button outline" id="recognize-button" data-action="accuse">我认出你了 <span>↗</span></button></div></section>
+      <aside class="memory-panel"><div class="panel-heading"><span class="section-number">记忆手账</span><span class="memory-counter"><b id="memory-used">00</b> / 05</span></div><div class="memory-pips" id="memory-pips" aria-label="已使用记忆次数"></div><p class="memory-description" id="memory-description">硝烟散了，有些细节却仍留在身体里。</p><div id="memory-list"></div><button class="button primary recall-button" id="recall-button" data-action="memory"><span class="recall-symbol">✧</span><span id="recall-label">唤起一段记忆</span><span>↗</span></button><p class="memory-warning" id="memory-warning">每次回想消耗一段记忆<br>第六次回想将触发失败结局</p><div class="notes-section"><label for="player-notes">我的推断 <span>仅自己可见</span></label><textarea id="player-notes" rows="4" maxlength="3000" placeholder="谁的回答，与那段记忆吻合？"></textarea></div></aside>
+    </div>
+  </main>
+
+  <dialog id="setup-dialog" class="paper-dialog"><button class="dialog-close" data-close aria-label="关闭">×</button><div class="dialog-eyebrow">YOUR INVITATION</div><span class="dialog-emblem">柬</span><h2>今夜，邀你入席。</h2><p class="dialog-description">连接 DeepSeek，让这段往事为你徐徐展开。</p><form id="setup-form"><label for="api-key">DeepSeek API Key <a href="https://platform.deepseek.com/api_keys" target="_blank" rel="noopener noreferrer">获取密钥 ↗</a></label><div class="password-wrap"><input id="api-key" type="password" name="apiKey" placeholder="sk-…" autocomplete="off" autocapitalize="none" spellcheck="false" required maxlength="256"><button type="button" id="toggle-key" aria-label="显示密钥">显示</button></div><label for="model-select">故事主持模型</label><select id="model-select"><option value="deepseek-flash">DeepSeek V4.1 Flash · 最新模型，推荐</option><option value="deepseek-v4-pro">DeepSeek V4 Pro</option></select><p class="key-note">密钥仅保存在本机服务内存中，用于请求 DeepSeek；不会写入文件或浏览器存储。模型调用费用由你的 DeepSeek 账户承担。</p><div class="form-error" id="setup-error" role="alert" hidden></div><button type="submit" class="button primary full-width" id="enter-button">推开酒会的门 <span>↗</span></button><p class="setup-bottom">五位来宾 · 五段记忆 · 一次相认</p></form></dialog>
+
+  <dialog id="rules-dialog" class="paper-dialog rules-dialog"><button class="dialog-close" data-close aria-label="关闭">×</button><div class="dialog-eyebrow">THE RULES OF REMEMBERING</div><h2>请相信你真正记得的。</h2><ol class="rules-detail"><li><strong>你的身份</strong><p>民国十五年，你从青石岭战场死里逃生。救你的人隐入硝烟，未留姓名。如今，一封匿名请柬把你引向临江的澄江饭店。</p></li><li><strong>你的调查</strong><p>酒会上有五位来宾，只有一位是恩人。选择人物，自由提问，将他们的回答与你的记忆对照。交谈不限次数，不消耗记忆。</p></li><li><strong>你的五次回想</strong><p>点击“唤起一段记忆”，由 Agent 安排一条战场线索。前五段均为真实记忆；用完第五段后，仍可继续交谈、作出判断。</p></li><li><strong>你的最后选择</strong><p>在五段记忆内选对恩人，即获胜；认错即失败。若执意唤起第六段记忆，你会凭空想象一段不存在的往事，立即失败。</p></li></ol><p class="rules-note">每局的恩人会重新选定，本局真相始终不变。请求失败不会扣除记忆。</p><button class="button primary full-width" data-close>我记住了 <span>↗</span></button></dialog>
+
+  <dialog id="confirm-dialog" class="paper-dialog compact-dialog"><button class="dialog-close" data-close aria-label="关闭">×</button><div class="dialog-eyebrow" id="confirm-eyebrow">A MOMENT OF RECOGNITION</div><h2 id="confirm-title"></h2><p class="dialog-description" id="confirm-description"></p><div class="confirm-actions"><button class="button outline" data-close>再想一想</button><button class="button primary" id="confirm-action">确认 <span>↗</span></button></div></dialog>
+
+  <dialog id="ending-dialog" class="paper-dialog ending-dialog"><div class="dialog-eyebrow" id="ending-eyebrow"></div><div id="ending-mark" class="ending-mark"></div><h2 id="ending-title"></h2><p id="ending-text" class="ending-text"></p><div id="ending-truth" class="ending-truth"></div><p id="ending-explanation" class="ending-explanation"></p><div class="confirm-actions"><button class="button outline" data-close>回看手账</button><button class="button primary" data-action="replay">重赴酒会 <span>↗</span></button></div></dialog>
+
+  <div class="status-toast" id="toast" role="status" hidden></div>
+  <div class="busy-indicator" id="busy-indicator" role="status" hidden><span class="spinner"></span><span id="busy-text">有人正在回忆往事……</span></div>
+</body>
+</html>
